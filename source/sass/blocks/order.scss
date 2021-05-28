@@ -1,0 +1,28 @@
+.order__wrap {
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.1);
+
+  @media (min-width: $width-desktop+px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.order__left-side {
+  @media (min-width: $width-desktop+px) {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      pointer-events: none;
+      content: "";
+      position: absolute;
+      width: 688px;
+      height: 688px;
+      background: transparent;
+      top: -97px;
+      left: 235px;
+      border-radius: 50%;
+      border: 20px solid rgba($color: #ffffff, $alpha: 0.03);
+    }
+  }
+}

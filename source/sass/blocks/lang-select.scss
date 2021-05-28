@@ -1,0 +1,24 @@
+.lang-select {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  gap: 10px;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: $width-desktop+px) {
+    padding: 0 20px;
+  }
+}
+
+.lang-select__text {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #212121;
+}
+
+.lang-select__icon-dropdown {
+  fill: none;
+}
