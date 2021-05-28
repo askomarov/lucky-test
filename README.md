@@ -1,1 +1,1 @@
-# [текст ссылка](https://ссылка)
+# [Ссылка на готовую страницу](https://askomarov.github.io/lucky-test/)
